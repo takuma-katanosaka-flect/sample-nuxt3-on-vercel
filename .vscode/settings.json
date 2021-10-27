@@ -1,0 +1,113 @@
+{
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "npm.packageManager": "yarn",
+  "search.exclude": {
+    "**/node_modules": false
+  },
+  "eslint.format.enable": false,
+  "eslint.packageManager": "yarn",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "css.validate": false,
+  "scss.validate": false,
+  "vetur.useWorkspaceDependencies": true,
+  "vetur.experimental.templateInterpolationService": true,
+  "todo-tree.general.tags": [
+    "CHANGED",
+    "FIXME",
+    "NOTE",
+    "REVIEW",
+    "TODO",
+    "WARNING"
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "checklist",
+    "type": "text",
+    "fontWeight": "bold",
+    "iconColour": "#2C7CFF"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "CHANGED": {
+      "foreground": "#FF00FF"
+    },
+    "FIXME": {
+      "foreground": "green"
+    },
+    "NOTE": {
+      "foreground": "#C0C0C0"
+    },
+    "REVIEW": {
+      "foreground": "#2C7CFF"
+    },
+    "TODO": {
+      "foreground": "#FF5F17"
+    },
+    "WARNING": {
+      "foreground": "red"
+    }
+  },
+  "better-comments.tags": [
+    {
+      "tag": "CHANGED",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "#FF00FF"
+    },
+    {
+      "tag": "FIXME",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "green"
+    },
+    {
+      "tag": "NOTE",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "#C0C0C0"
+    },
+    {
+      "tag": "REVIEW",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "#2C7CFF"
+    },
+    {
+      "tag": "TODO",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "#FF5F17"
+    },
+    {
+      "tag": "WARNING",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "red"
+    }
+  ],
+  "material-icon-theme.activeIconPack": "vue_vuex",
+  "cSpell.words": [
+    "Nuxt",
+    "nuxtjs",
+    "pinia",
+    "stylelint",
+    "vercel",
+    "vite",
+    "vitejs"
+  ]
+}

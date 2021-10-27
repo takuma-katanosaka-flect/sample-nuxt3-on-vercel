@@ -1,13 +1,21 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "jsx": "preserve",
     "module": "ESNext",
     "moduleResolution": "Node",
-    "strict": false,
-    "allowJs": true,
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "resolveJsonModule": true,
-    "types": [
-      "node"
-    ]
-  }
+    "sourceMap": true,
+    "strict": true,
+    "target": "ESNext",
+    "lib": ["esnext", "dom"],
+    "types": ["node", "vite/client"]
+  },
+  "exclude": ["dist", "node_modules", "./stylelint.config.js"]
 }

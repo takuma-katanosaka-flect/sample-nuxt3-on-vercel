@@ -2,7 +2,7 @@
   <div v-html="html" />
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { welcome as welcomeTemplate } from '@nuxt/design'
 const html = welcomeTemplate({})
 </script>
