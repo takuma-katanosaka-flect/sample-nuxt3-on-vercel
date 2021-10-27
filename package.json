@@ -1,4 +1,6 @@
 {
+  "name": "sample-nuxt3-on-vercel",
+  "packageManager": "yarn@3.1.0",
   "private": true,
   "scripts": {
     "dev": "nuxt dev",
